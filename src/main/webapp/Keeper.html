@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Go Wild Wild Life</title>
+<style>
+body{
+background-image:url('images/Zoo.jpg');
+background-size : cover;
+background-repeat : no-repeat;
+width:1000px;
+height:730px;
+}
+input{
+margin-top:50px;
+}
+label{
+margin-top:50px;
+}
+</style>
+</head>
+<body>
+<form action="Keeper_action.jsp"> 
+<h1>Registration Keeper</h1>
+<h2>
+<label>Name</label>
+<input type="text" name="keeper_name" required>
+<br>
+<label>Date Of Birth</label>
+<input type="date" name="keeper_dateofbirth" required>
+<br>
+<label>Email</label>
+<input type="text" name="keeper_email" required>
+<br>
+<label>Phone</label>
+<input type="text" name="keeper_phone" required>
+<br>
+<label>Rank</label>
+<input type="text" name="keeper_rank" required>
+<br>
+<button type="Submit">Save</button>
+<button type="Reset">Reset</button>
+</h2>
+</form>
+</body>
+</html>

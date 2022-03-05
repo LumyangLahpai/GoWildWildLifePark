@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Go Wild Wild Life</title>
+<style>
+body{
+background-image:url('images/Animal.jpg');
+background-size : cover;
+background-repeat : no-repeat;
+width:1000px;
+height:700px;
+}
+input{
+margin-top:50px;
+}
+label{
+margin-top:50px;
+}
+</style>
+</head>
+<body>
+<form action="Animal_action.jsp">
+<label>Animal Name</label>
+<input type="text" name="aName" required>
+<br>
+<label>Animal Gender</label>
+<input type="text" name="aGender" required>
+<br>
+<label>Year</label>
+<input type="text" name="aYear" required>
+<br>
+<label>EnclosuresId</label>
+<input type="text" name="eID" required>
+<br>
+<label>SpeciesId</label>
+<input type="text" name="sID" required>
+<br>
+<label>KeeperId</label>
+<input type="text" name="kID" required>
+<br>
+<label>DietId</label>
+<input type="text" name="dID" required>
+<br>
+<button type="Submit">Save</button>
+<button type="Reset">Reset</button>
+</form>
+</body>
+</html>
